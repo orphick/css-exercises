@@ -29,20 +29,38 @@ body {
   font-style: italic;
 }
 
-button {
-  border: none;
-  border-radius: 8px;
-  background: rebeccapurple;
-  color: white;
-  padding: 8px 24px;
-}
-
 a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
 }
 
+
+button {
+  border: none;
+  border-radius: 8px;
+  background: rebeccapurple;
+  color: white;
+  padding: 10px;
+  display: block;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
 ul {
   list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+.left-flex-container, .right-flex-container{
+  display: flex;
+  align-items: center;
+  gap:16px;
 }
